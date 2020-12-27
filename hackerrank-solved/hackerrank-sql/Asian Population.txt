@@ -1,0 +1,8 @@
+Problem Statement:
+https://www.hackerrank.com/challenges/asian-population/problem
+
+Solution:
+select sum(City.Population) 
+from City 
+INNER JOIN Country on City.CountryCode = Country.Code 
+Where Country.Continent = 'Asia';
