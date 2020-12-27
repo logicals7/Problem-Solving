@@ -1,0 +1,7 @@
+Problem Statement:
+https://www.hackerrank.com/challenges/african-cities/problem
+
+Solution:
+Select City.NAME from City
+inner join COUNTRY on CITY.CountryCode = COUNTRY.Code
+where CONTINENT = 'Africa';
