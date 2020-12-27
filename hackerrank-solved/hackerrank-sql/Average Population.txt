@@ -1,0 +1,5 @@
+Problem Statement:
+https://www.hackerrank.com/challenges/average-population/problem
+
+Solution:
+Select FLOOR(AVG(POPULATION)) from CITY;
